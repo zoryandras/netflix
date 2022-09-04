@@ -10,7 +10,6 @@ import Loader from "./Loader";
 
 interface Props {
     products: Product[];
-    selectedPlan: Product,
 }
 
 function Plans({ products,  }: Props) {
